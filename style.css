@@ -1,0 +1,204 @@
+body {
+    background: -moz-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 128, 0, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#008000', GradientType=1);
+}
+
+.glyphicon {
+    margin-right: 5px;
+}
+
+h3 {
+    padding: 5px;
+    text-align: left;
+    color: white !important;
+    background: -moz-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 128, 0, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* ie10+ */
+    background: linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* w3c */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#008000', GradientType=1);
+    /* ie6-9 */
+}
+
+h4 {
+    padding: 5px;
+    background-image: -ms-linear-gradient(right, #8BC34A 0%, #4CAF50 100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(right, #8BC34A 0%, #4CAF50 100%);
+    /* Opera */
+    background-image: -o-linear-gradient(right, #8BC34A 0%, #4CAF50 100%);
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(0, #8BC34A), color-stop(100, #4CAF50));
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(right, #8BC34A 0%, #4CAF50 100%);
+    /* W3C Markup */
+    background-image: linear-gradient(to left, #8BC34A 0%, #4CAF50 100%);
+}
+
+.bodyB {
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.leftD {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    float: left;
+    padding: 25px;
+}
+
+.first {
+    margin: 30px;
+}
+
+.textL {
+    line-height: 30px;
+}
+
+.afterBodyB {
+    background-color: #f1f1f1;
+    padding: 0px;
+    display: table;
+}
+
+.myBar {
+    padding: 20px;
+}
+
+.skills {
+    padding: 20px;
+}
+
+.rightD {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    text-align: left;
+    padding: 25px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 5%;
+}
+
+.imageD {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    vertical-align: middle;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0px;
+    line-height: 390%;
+}
+
+.leftContact {
+    width: 49%;
+    display: inline-block;
+}
+
+.rightContact {
+    width: 49%;
+    display: inline-block;
+}
+
+.softwareLeft {
+    width: 49%;
+    display: inline-block;
+}
+
+.softwareRight {
+    width: 49%;
+    display: inline-block;
+}
+
+.w3-progress-container {
+    margin: 10px auto;
+}
+
+.circleProgi {
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+    background-color: green;
+    overflow: hidden;
+}
+
+.skillsD {
+    margin: 20px;
+}
+
+.freepik {
+    text-align: center;
+}
+
+@media(max-width:888px) {
+    .leftD {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        float: left;
+        padding: 5px;
+    }
+    .rightD {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        float: left;
+        padding: 5px;
+    }
+    .bodyB {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .textL {
+        line-height: 15px;
+    }
+    .contact ul {
+        list-style: none;
+        padding: 0px;
+        line-height: 190%;
+    }
+    .skillsD {
+        margin: 0px;
+    }
+    .leftContact {
+        width: 100%;
+        display: block;
+    }
+    .rightContact {
+        width: 100%;
+        display: block;
+    }
+}
