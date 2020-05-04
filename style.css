@@ -17,7 +17,6 @@ h3 {
     text-align: left;
     color: white !important;
     background: -moz-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
-    /* ff3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 128, 0, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
     /* safari4+,chrome */
     background: -webkit-linear-gradient(45deg, rgba(0, 128, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
